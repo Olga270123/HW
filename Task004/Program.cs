@@ -22,5 +22,5 @@ int max = number1;
         max = number3;
     }
         Console.WriteLine($"Максимальное число = {max}"); 
-    }
+}
 
