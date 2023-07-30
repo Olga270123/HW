@@ -35,4 +35,3 @@ if (ValidateWeekDay(number))
 {
     Console.WriteLine(GetThirdRang(number));        
 }
-
