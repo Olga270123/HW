@@ -3,19 +3,18 @@
 // 12821 -> да
 // 23432 -> да
 
-int num, r, sum=0, t;
-Console.Write("Введите пятизначное число: ");
-num = Convert.ToInt32(Console.ReadLine());
-if(num > 9999 && num < 100000)
+Console.Write("Введите число: ");
+string? number = Console.ReadLine();
+
+void CheckingNumber(string number)
 {
-for(t = num; num != 0; num = num / 10)
-{
-r = num % 10;
-sum = sum * 10 + r;
+  if (number[0]==number[4] && number[1]==number[3]){
+    Console.WriteLine($"Ваше число: {number} является палиндромом");
+  }
+  else Console.WriteLine($"Ваше число: {number} не является палиндромом");
 }
-if(t==sum)
-Console.Write($"{t} является палиндромом");
-else
-Console.Write($"{t} не является палиндромом");
-} else
-Console.Write("Введите пятизначное число: ");
+
+if (number!.Length == 5){
+  CheckingNumber(number);
+}
+else Console.WriteLine($"Введите пятизначное число");
