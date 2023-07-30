@@ -42,8 +42,3 @@ if (ValidateWeekDay(weekDay))
         Console.WriteLine("Рабочий день");   
     }
 }
-
-
-
-
-
