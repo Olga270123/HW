@@ -10,7 +10,6 @@ int y1Coordinate = Convert.ToInt32(Console.ReadLine());
 Console.Write("Z1: ");
 int z1Coordinate = Convert.ToInt32(Console.ReadLine());
 
-
 Console.WriteLine("Введите второй координаты точки");
 Console.Write("X2: ");
 int x2Coordinate = Convert.ToInt32(Console.ReadLine());
