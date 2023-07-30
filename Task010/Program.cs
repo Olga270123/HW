@@ -3,24 +3,6 @@
 // 782 -> 8
 // 918 -> 1
 
-// Console.WriteLine("введите трехзначное число");
-// int number = Convert.ToInt32(Console.ReadLine());
-
-// if(number < 0) 
-// {
-//     number *= -1;
-// }
-
-// if(number >= 100 && number <= 999)  
-// {
-//        int result = number /10 % 10;
-//     Console.WriteLine($"Вторая цифра числа: {result}");
-// }
-// else
-// {
-//     Console.WriteLine("Число не трехзначное");
-// }
-
 int Promt(string message)
 {
     Console.Write(message); 

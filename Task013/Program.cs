@@ -36,38 +36,3 @@ if (ValidateWeekDay(number))
     Console.WriteLine(GetThirdRang(number));        
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Console.WriteLine("введите число");
-// int number = Convert.ToInt32(Console.ReadLine());
-
-// if(number < 0) 
-// {
-//     number *= -1;
-// }
-
-// if(number >= 100)  
-// {
-//     int result = number /100 % 10;
-//     Console.WriteLine($"Третья цифра числа: {result}");
-// }
-// else
-// {
-//     Console.WriteLine("Третьей цифры нет");
-// }
