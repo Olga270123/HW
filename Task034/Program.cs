@@ -25,7 +25,6 @@ void PrintArray(int[] arr)
     Console.Write("]");
 }
 
-
 int CountEvenNumbers(int[] arr)
 {
     int count = 0;
@@ -42,4 +41,3 @@ PrintArray(array);
 int result = CountEvenNumbers(array);
 Console.WriteLine($"-> {result}");
 Console.WriteLine();
-
