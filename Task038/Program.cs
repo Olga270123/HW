@@ -28,18 +28,16 @@ void PrintArrayDouble(double[] arr, int round = 1)
 
 double Difference(double[] randomArray)
 {
-double min = randomArray[0];
-double max = randomArray[0];
-int i = 1;
-while (i < randomArray.Length)
-{
-if (max<randomArray[i])
-max = randomArray[i];
-if (min>randomArray[i])
-min = randomArray[i];
-i = i + 1;
-}
-return max-min;
+    double min = randomArray[0];
+    double max = randomArray[0];
+    int i = 1;
+    while (i < randomArray.Length)
+        {
+            if (max < randomArray[i]) max = randomArray[i];
+            if (min > randomArray[i]) min = randomArray[i];
+            i = i + 1;
+        }
+    return max - min;
 }
 
 double[] array = CreateArrayRndDouble(5, 0, 100);
