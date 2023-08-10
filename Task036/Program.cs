@@ -11,7 +11,6 @@ int[] CreateArrayRndInt(int size, int min, int max)
     {
         arr[i] = rnd.Next(min, max + 1);
     }
-   
     return arr;
 }
 
@@ -35,7 +34,6 @@ int SumEvenIndex(int[] arr)
         sum = sum + arr[i];
         i = i + 2; 
     }   
-    
     return sum;
 }
 
